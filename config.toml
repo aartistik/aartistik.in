@@ -35,6 +35,7 @@ footerServiceTitle = "Service"
 footerQuicklinkTitle = "Quicklinks"
 footerAboutTitle = "About"
 footerSubscribeTitle = "Subscribe"
+footerButtonTitle = "Get in touch"
 
 # Hero Area Section
 [Languages.en.params.hero]
@@ -125,17 +126,17 @@ weight = 6
 
 # Footer Service Menu
 [[menu.service]]
-name = "graphicdesign"
+name = "homesolutions"
 url = "service"
 weight = 1
 
 [[menu.service]]
-name = "webdesign"
+name = "corporatesolutions"
 url = "service"
 weight = 2
 
 [[menu.service]]
-name = "webdevelopment"
+name = "endtoendsolution"
 url = "service"
 weight = 3
 

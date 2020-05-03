@@ -14,14 +14,18 @@ other = "Blog"
 
 [contact]
 other = "Contact"
-# [graphicdesign]
-# other = "EN Graphic Design"
-# [webdesign]
-# other = "EN Web Design"
-# [webdevelopment]
-# other = "EN Web Development"
-# [partners]
-# other = "EN Partners"
+
+[homesolutions]
+other = "Home Interiors"
+
+[corporatesolutions]
+other = "Commercial Designs"
+
+[endtoendsolution]
+other = "End to End Design solutions"
+
+[partners]
+other = "Our Partners"
 # [faqs]
 # other = "EN FAQ's"
 # [badges]
