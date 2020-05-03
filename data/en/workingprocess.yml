@@ -1,0 +1,37 @@
+enable  : true
+topTitle: HOW WE WORK
+title   : You Dream it we make it
+subtitle: We start with shared Pinterest boards and create a circle of your imaginations. We apply our expertise to create the designs best for you and help visualize using computerized 3D rendering.
+item    :
+  - number  : 1
+    icon    : tf-ion-ios-briefcase-outline
+    title   : The Meeting 
+    description : >
+      Excitement of floor plan & Exploration of requirement
+      
+
+  - number  : 2
+    icon    : tf-pencil2
+    title   : The Work
+    description : >
+      Space Plans, Materials, Mood Boards, and Decisions
+
+  - number  : 3
+    icon    : tf-ion-ios-alarm-outline
+    title   : The Waiting
+    description : >
+      Quotes, Proposals, Orders and Deliveries. 
+
+  - number  : 4
+    icon    : tf-ion-ios-locked-outline
+    title   : The Rush 
+    description : >
+      Installation and The Reveal
+
+
+# 
+# https://www.lmbinteriors.com/interior-design/interior-design-process-expect-part-1/
+# The Meeting (Excitement and Exploration, Programming)
+# The Work (Space Plans, Materials, Design Boards, and Decisions)
+# The Waiting (Quotes, Proposals, Orders, Deliveries)
+# The Rush (Installation, The Reveal)

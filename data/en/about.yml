@@ -1,0 +1,15 @@
+enable  : true
+item    :
+# https://www.pexels.com/photo/room-furniture-living-room-sofa-3370564/
+  - positionRight : false
+    image : images/about/about-1-new.jpg
+    title : Creativity is in our blood
+    description : >
+      Curabitur felis nibh, imperdiet eu erat non, luctus cursus lectus. Donec maximus diam leo, sed fringilla nisl auctor eget. Donec dictum neque est, ac faucibus ex blandit a Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quo minima ab aperiam molestiae natus repellendus neque culpa iure, nemo veritatis explicabo facilis, officia, saepe! Et corrupti odit, non deserunt.
+
+# https://www.pexels.com/photo/gray-dining-table-under-pendant-lamps-3356416/
+  - positionRight : true
+    image : images/about/about-2-new.jpg
+    title : We think out of the Box
+    description : >
+      Curabitur felis nibh, imperdiet eu erat non, luctus cursus lectus. Donec maximus diam leo, sed fringilla nisl auctor eget. Donec dictum neque est, ac faucibus ex blandit a Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quo minima ab aperiam molestiae natus repellendus neque culpa iure, nemo veritatis explicabo facilis, officia, saepe! Et corrupti odit, non deserunt.
