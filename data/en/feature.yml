@@ -1,0 +1,39 @@
+enable  : true
+item  :
+  - icon  : tf-ion-ios-home
+    title : Home Design Consultation
+    description : >
+      We accpets all type of residential projects. Intial online consultancy is followed by designer after getting respective floor plans.
+
+  - icon  : tf-briefcase2 
+    title : Commercial Design Consultations
+    description : >
+      Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.
+
+  - icon  : tf-ion-settings
+    title : End to End Designs
+    description : >
+      Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.
+# tf-ion-umbrella
+# tf-briefcase2
+# tf-ion-ios-flower
+# tf-gift2
+# tf-focus
+# tf-expand2
+# https://themefisher.github.io/themefisher-font/
+
+
+  # - icon  : tf-ion-ios-copy-outline
+  #   title : Home Design Consultation
+  #   description : >
+  #     Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.
+
+  # - icon  : tf-ion-ios-alarm-outline
+  #   title : Commercial Design Consultations
+  #   description : >
+  #     Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.
+
+  # - icon  : tf-ion-ios-book-outline
+  #   title : End to End Designs
+  #   description : >
+  #     Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.

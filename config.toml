@@ -1,0 +1,161 @@
+# Aartistik.in
+baseURL = "http://aartistik.in/"
+languageCode = "en-us"
+title = "Aartistik.in"
+#Theme for the current site
+theme = "navigator-hugo"
+#
+#
+#
+summaryLength = 10
+# Build robots.txt file
+enableRobotsTXT = true
+# google analytics tracking id
+googleAnalytics = ""
+DefaultContentLanguage = "en"
+
+#
+# Site Params TODO: Logo
+[params]
+logo = "images/asdflogo.png"
+
+[Languages]
+
+############# 2 - Site en ENGLISH
+[Languages.en]
+weight = 2
+languageCode = "en-us"
+title = "Aartistik Design studio"
+dateFormat = "January 2, 2006"
+# home = "EN Home"
+logo = "images/banner/mylogo.png"
+menufixed = false
+footerDescription = "Aartistik Design studio."
+footerServiceTitle = "Service"
+footerQuicklinkTitle = "Quicklinks"
+footerAboutTitle = "About"
+footerSubscribeTitle = "Subscribe"
+
+# Hero Area Section
+[Languages.en.params.hero]
+enable = true
+heading = "We love to make brands grow"
+description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
+button = true
+btnText = "Get your free design today !!"
+btnURL = "/contact"
+# videoThumb = "images/slider/video-player-thumb.jpg"
+videoThumb = "images/slider/video-player-thumb.jpg"
+bannerImg = "images/banner/banner-2.jpg"
+videoURL = "https://www.youtube.com/embed/g3-VxLQO7do"
+
+# About 2 Section
+[Languages.en.params.aboutSm]
+enable = true
+title = "We have explored the digital landscape with passion for a long time"
+description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam maiores iste soluta, nihil dolorem?"
+
+# Blog Section On Homepage
+[Languages.en.params.blog]
+enable = true
+topTitle = "OUR UNTOLD STORY"
+title = "Blog."
+subtitle = "Coming soon..."
+
+# Contact Section
+[Languages.en.params.contact]
+enable = true
+topTitle = "DROP US A NOTE"
+title = "We'd love to hear from you"
+subtitle = "Whether you have a question about our workflow, pricing, free designs, or anything else. Our team is ready to answer all your questions"
+loc1 = "Karnataka - Bangalore"
+loc2 = "Gujarat - Vadodara, Surat, Gandhinagar"
+phone = "+91-973-985-0022"
+mail = "myaartistik@gmail.com"
+facebook = "https://www.facebook.com/"
+twitter = "https://twitter.com/"
+linkedin = "https://www.linkedin.com/"
+# dribbble = "https://dribbble.com/"
+instagram = "https://www.instagram.com/"
+contactimg = "images/contact/contact-us-3.jpg"
+
+# Call to Action Section on About Page
+[Languages.en.params.cta]
+enable = true
+bg = "images/call-to-action/call-to-action-bg-2.jpg"
+title = "Let's Create Something Together"
+subtitle = "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
+btnText = "Contact Us"
+
+#
+#
+#
+# Site Menus
+[menu]
+
+# Navbar Menus
+[[menu.nav]]
+name = "home"
+url = ""
+weight = 1
+
+[[menu.nav]]
+name = "about"
+url = "about"
+weight = 2
+
+[[menu.nav]]
+name = "service"
+url = "service"
+weight = 3
+
+# [[menu.nav]]
+# name = "portfolio"
+# url = "portfolio"
+# weight = 4
+[[menu.nav]]
+name = "blog"
+url = "blog"
+weight = 5
+
+[[menu.nav]]
+name = "contact"
+url = "contact"
+weight = 6
+
+# Footer Service Menu
+[[menu.service]]
+name = "graphicdesign"
+url = "service"
+weight = 1
+
+[[menu.service]]
+name = "webdesign"
+url = "service"
+weight = 2
+
+[[menu.service]]
+name = "webdevelopment"
+url = "service"
+weight = 3
+
+# Footer Quick links Menu
+[[menu.quicklink]]
+name = "partners"
+url = "about"
+weight = 1
+
+[[menu.quicklink]]
+name = "about"
+url = "about"
+weight = 2
+
+[[menu.quicklink]]
+name = "faqs"
+url = "about"
+weight = 3
+
+[[menu.quicklink]]
+name = "badges"
+url = "about"
+weight = 4
