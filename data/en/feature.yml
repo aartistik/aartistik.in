@@ -1,19 +1,19 @@
 enable  : true
 item  :
   - icon  : tf-ion-ios-home
-    title : Home Design Consultation
+    title : Home Interior Consultations
     description : >
-      We accpets all type of residential projects. Intial online consultancy is followed by designer after getting respective floor plans.
-
+      Our designers thoughtfully source a selection of products, just for you to ensure that every design is uniquely tailored to your style, your needs and your budget.
+# You deserve a home e can create a beautiful space that fits your needs
   - icon  : tf-briefcase2 
     title : Commercial Design Consultations
     description : >
-      Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.
+      Great space is not branding – great feeling is! We help brands with corporate interiors that Establishs A Mood to enhances human experience.
 
   - icon  : tf-ion-settings
     title : End to End Designs
     description : >
-      Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.
+      We also offer End-to-End solutions. It starts with Interior designs, Funiture procurement and Installation helping you create a space that tells your story.
 # tf-ion-umbrella
 # tf-briefcase2
 # tf-ion-ios-flower
