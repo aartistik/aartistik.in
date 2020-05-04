@@ -1,17 +1,14 @@
 [home]
 other = "Home"
 
-[about]
-other = "About"
-
-[service]
-other = "Service"
-
-# [portfolio]
-# other = "Portfolio"
-[blog]
-other = "Blog"
-
+# [about]
+# other = "About"
+# [service]
+# other = "Service"
+# # [portfolio]
+# # other = "Portfolio"
+# [blog]
+# other = "Blog"
 [contact]
 other = "Contact"
 
