@@ -1,5 +1,5 @@
 # Aartistik.in
-baseURL = "http://aartistik.in/"
+baseURL = "https://aartistik.in/"
 languageCode = "en-us"
 title = "Aartistik.in"
 #Theme for the current site
