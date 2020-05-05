@@ -11,7 +11,7 @@ summaryLength = 10
 # Build robots.txt file
 enableRobotsTXT = true
 # google analytics tracking id
-googleAnalytics = ""
+googleAnalytics = "UA-165601265-1"
 DefaultContentLanguage = "en"
 
 #
@@ -79,6 +79,7 @@ twitter = "https://twitter.com/"
 linkedin = "https://www.linkedin.com/"
 # dribbble = "https://dribbble.com/"
 instagram = "https://www.instagram.com/"
+youtube = "https://www.youtube.com/channel/UCPYZHu4b8_oVci6aKHqXTtQ/videos"
 contactimg = "images/contact/contact-us-3.jpg"
 
 # Call to Action Section on About Page
