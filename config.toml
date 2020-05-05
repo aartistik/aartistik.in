@@ -30,10 +30,11 @@ dateFormat = "January 2, 2006"
 # home = "EN Home"
 logo = "images/banner/mylogo.png"
 menufixed = false
-footerDescription = "Aartistik Design studio."
+footerDescription = "Government of India registered Aartistik Design studio."
 footerServiceTitle = "Service"
 footerQuicklinkTitle = "Quicklinks"
 footerAboutTitle = "About"
+footerGovtRegistration = "images/footer/emblem-dark.png"
 footerSubscribeTitle = "Subscribe"
 footerButtonTitle = "Get in touch"
 
