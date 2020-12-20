@@ -118,7 +118,25 @@ $(window).on("load", function () {
 			});
 	});
 
+	//document.querySelector("contact-form").addEventListener("submit", handleSubmit);
 
+	function encode(data) {
+		return Object.keys(data)
+			.map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+			.join("&")
+	}
+
+	// const handleSubmit = (event) => {
+	// 	event.preventDefault()
+	// 	fetch("/", {
+	// 		method: "POST",
+	// 		headers: { "Content-Type": "application/x-www-form-urlencoded" },
+	// 		body: encode({
+	// 			"form-name": event.target.getAttribute("name"),
+	// 			...name
+	// 		})
+	// 	}).then(() => navigate("/thank-you/")).catch(error => alert(error))
+	// }
 
 
 	/* ========================================================================= */
@@ -126,7 +144,7 @@ $(window).on("load", function () {
 	/* ========================================================================= */
 
 
-	$('#contact-submit').click(function (e) {
+	$('#contact-submit-net').click(function (e) {
 
 		//stop the form from being submitted
 		e.preventDefault();
@@ -184,6 +202,14 @@ $(window).on("load", function () {
 				'disabled': 'false',
 				'value': 'Sending...'
 			});
+
+			fetch("/", {
+				method: "POST",
+				headers: { "Content-Type": "application/x-www-form-urlencoded" },
+				body: encode({
+					"name": name,
+				})
+			}).then(() => { $('#cf-submit').remove(); $('#mail-success').fadeIn(500); }).catch(error => { $('#mail-fail').fadeIn(500); $('#contact-submit').removeAttr('disabled').attr('value', 'Send The Message'); })
 
 			/* using the jquery's post(ajax) function and a lifesaver
 			function serialize() which gets all the data from the form
