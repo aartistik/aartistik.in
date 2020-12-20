@@ -144,7 +144,7 @@ $(window).on("load", function () {
 	/* ========================================================================= */
 
 
-	$('#contact-submit').click(function (e) {
+	$('#contact-submit-net').click(function (e) {
 
 		//stop the form from being submitted
 		e.preventDefault();
@@ -207,7 +207,11 @@ $(window).on("load", function () {
 				method: "POST",
 				headers: { "Content-Type": "application/x-www-form-urlencoded" },
 				body: encode({
-					"form-name": name,
+					"form-name": "contact-form",
+					"customer-name": name,
+					"customer-email": email,
+					"customer-mobile": mobile,
+					"customer-message": message
 				})
 			}).then(() => { $('#cf-submit').remove(); $('#mail-success').fadeIn(500); }).catch(error => { $('#mail-fail').fadeIn(500); $('#contact-submit').removeAttr('disabled').attr('value', 'Send The Message'); })
 
