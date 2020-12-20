@@ -28,7 +28,7 @@ languageCode = "en-us"
 title = "Aartistik Design studio"
 dateFormat = "January 2, 2006"
 # home = "EN Home"
-logo = "images/banner/mylogo.png"
+logo = "images/banner/mylogo_Final.png"
 menufixed = false
 footerDescription = "Government of India registered Aartistik Design studio."
 footerServiceTitle = "Service"
@@ -44,7 +44,7 @@ enable = true
 heading = "Aartistik - A luxury interior design studio."
 description = "We believe that good design should evoke a response, stir emotion, and inspire thought – that’s why all of our meaningful creations personify a lifestyle, a feeling and a purpose.We specialize in Commercial and residential interior design and styling. Right on trend & Aartistik !! in nature."
 button = true
-btnText = "Get your free design today !!"
+btnText = "Hurry!! Get your free Quote today "
 btnURL = "/contact"
 # videoThumb = "images/slider/video-player-thumb.jpg"
 videoThumb = "images/slider/video-player-thumb.jpg"
@@ -69,10 +69,10 @@ subtitle = "Coming soon..."
 enable = true
 topTitle = "DROP US A NOTE"
 title = "We'd love to hear from you"
-subtitle = "Whether you have a question about our workflow, pricing, free designs, or anything else. Our team is ready to answer all your questions"
+subtitle = "Whether you have a question about our workflow, pricing, free designs, or anything else. Our team is ready to answer all your questions. Send us your floor plan and we handle the rest"
 loc1 = "Karnataka - Bangalore"
 loc2 = "Gujarat - Vadodara, Surat, Gandhinagar"
-phone = "+91-973-985-0022"
+phone = "+91-636-033-6920"
 mail = "myaartistik@gmail.com"
 facebook = "https://www.facebook.com/"
 twitter = "https://twitter.com/"
@@ -102,10 +102,11 @@ name = "home"
 url = ""
 weight = 1
 
-# [[menu.nav]]
-# name = "about"
-# url = "about"
-# weight = 2
+[[menu.nav]]
+name = "about"
+url = "about"
+weight = 2
+
 # [[menu.nav]]
 # name = "service"
 # url = "service"

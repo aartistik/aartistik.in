@@ -1,8 +1,9 @@
 [home]
 other = "Home"
 
-# [about]
-# other = "About"
+[about]
+other = "About"
+
 # [service]
 # other = "Service"
 # # [portfolio]
