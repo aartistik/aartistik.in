@@ -144,7 +144,7 @@ $(window).on("load", function () {
 	/* ========================================================================= */
 
 
-	$('#contact-submit-net').click(function (e) {
+	$('#contact-submit').click(function (e) {
 
 		//stop the form from being submitted
 		e.preventDefault();
